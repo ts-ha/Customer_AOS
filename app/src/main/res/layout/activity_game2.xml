@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/bg"
+            layout="@layout/activity_game_sky_sea" />
+
+        <include
+            android:id="@+id/nums"
+            layout="@layout/activity_game_numbers" />
+
+        <include
+            android:id="@+id/fishes"
+            layout="@layout/activity_game_fishes" />
+
+        <include
+            android:id="@+id/waters"
+            layout="@layout/activity_game_water_drop" />
+
+        <include
+            android:id="@+id/area"
+            layout="@layout/activity_game_area" />
+
+        <include
+            android:id="@+id/niddle"
+            layout="@layout/activity_game_niddle" />
+
+        <include
+            android:id="@+id/buttons"
+            layout="@layout/activity_game_buttons" />
+
+        <ImageButton
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@null"
+            android:src="@drawable/selector_btn_close"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <FrameLayout
+            android:id="@+id/progress"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="#3000"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+</layout>

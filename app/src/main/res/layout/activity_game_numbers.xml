@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/numLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <bodyfriend.com.customerapp.bodystory.customview.StrokeTextView
+                android:id="@+id/day"
+                style="@style/text_game"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/game_time_size"
+                tools:text="5" />
+
+            <bodyfriend.com.customerapp.bodystory.customview.StrokeTextView
+                android:id="@+id/imgDay"
+                style="@style/text_game"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="일"
+                android:textColor="#FFE438"
+                android:textSize="@dimen/game_time_size" />
+
+            <bodyfriend.com.customerapp.bodystory.customview.StrokeTextView
+                android:id="@+id/hour"
+                style="@style/text_game"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/game_time_size"
+                tools:text="12" />
+
+            <bodyfriend.com.customerapp.bodystory.customview.StrokeTextView
+                android:id="@+id/imgHour"
+                style="@style/text_game"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="시"
+                android:textColor="#FFE438"
+                android:textSize="@dimen/game_time_size" />
+
+            <bodyfriend.com.customerapp.bodystory.customview.StrokeTextView
+                android:id="@+id/minute"
+                style="@style/text_game"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/game_time_size"
+                tools:text="32" />
+
+            <bodyfriend.com.customerapp.bodystory.customview.StrokeTextView
+                android:id="@+id/imgMinute"
+                style="@style/text_game"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="분"
+                android:textColor="#FFE438"
+                android:textSize="@dimen/game_time_size" />
+
+            <bodyfriend.com.customerapp.bodystory.customview.StrokeTextView
+                android:id="@+id/sec"
+                style="@style/text_game"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/game_time_size"
+                tools:text="32" />
+
+
+            <bodyfriend.com.customerapp.bodystory.customview.StrokeTextView
+                android:id="@+id/imgSec"
+                style="@style/text_game"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="초"
+                android:textColor="#FFE438"
+                android:textSize="@dimen/game_time_size" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:gravity="center_vertical"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/numLayout">
+
+            <ImageView
+            android:id="@+id/curPosition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_txt_cur_posi" />
+
+            <bodyfriend.com.customerapp.bodystory.customview.StrokeTextView
+                android:id="@+id/txtCurPosition"
+                style="@style/text_game"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="28dp"
+                tools:text="3300" />
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+</layout>

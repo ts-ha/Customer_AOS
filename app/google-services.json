@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "244823868145",
+    "firebase_url": "https://total-de-bodyfriend.firebaseio.com",
+    "project_id": "total-de-bodyfriend",
+    "storage_bucket": "total-de-bodyfriend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244823868145:android:5ebadd2c7f9d8552",
+        "android_client_info": {
+          "package_name": "bodyfriend.welfare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244823868145-225603rbh482gkvbl03ibcqpugqvrl43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABYwLZf5EKirS71g9TpCRWngn3oge_aEE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244823868145:android:6de4faa6fb21fddc",
+        "android_client_info": {
+          "package_name": "bodyfriend.com.customerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244823868145-dikk8os8h2bsv030rhqoga464i9ljjui.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bodyfriend.com.customerapp",
+            "certificate_hash": "4b906a42710219b2f216b2801a26a4e3cb4b0318"
+          }
+        },
+        {
+          "client_id": "244823868145-225603rbh482gkvbl03ibcqpugqvrl43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABYwLZf5EKirS71g9TpCRWngn3oge_aEE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "244823868145-225603rbh482gkvbl03ibcqpugqvrl43.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
